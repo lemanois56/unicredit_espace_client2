@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "username": "spruko",
+    "password": "spruko1234",
+    "token": "",
+    "accountblocked": false,
+    "fullname": "Spruko User",
+    "theme": "light",
+    "dominantColor": "#845adf",
+    "currency": "€",
+    "currencyPosition": "left",
+    "accounts": [
+      {
+        "type": "main",
+        "balance": 24580.00,
+        "iban": "FR76 1234 5678 9012 3456 7890 456"
+      },
+      {
+        "type": "savings",
+        "balance": 12450.00,
+        "interestRate": "2.5%"
+      }
+    ],
+    "stats": {
+      "incomeThisMonth": 8500,
+      "expensesThisMonth": 2150,
+      "netSavings": 6300,
+      "savingsGoal": 10000
+    },
+    "transactions": [
+      {
+        "id": 1,
+        "date": "2024-12-15",
+        "description": "Salaire",
+        "category": "Revenus",
+        "amount": 3200,
+        "amountType": "credit",
+        "status": "Validé"
+      },
+      {
+        "id": 2,
+        "date": "2024-12-14",
+        "description": "Courses Carrefour",
+        "category": "Alimentation",
+        "amount": -85.5,
+        "amountType": "debit",
+        "status": "Validé"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "test",
+    "password": "test",
+    "token": "",
+    "accountblocked": true,
+    "fullname": "Test User",
+    "theme": "dark",
+    "dominantColor": "#22223b",
+    "currency": "$",
+    "currencyPosition": "right",
+    "accounts": [
+      {
+        "type": "main",
+        "balance": 1000.00,
+        "iban": "US00 1234 5678 9012 3456 7890 000"
+      }
+    ],
+    "stats": {
+      "incomeThisMonth": 2000,
+      "expensesThisMonth": 500,
+      "netSavings": 500,
+      "savingsGoal": 3000
+    },
+    "transactions": [
+      {
+        "id": 1,
+        "date": "2024-12-10",
+        "description": "Achat Amazon",
+        "category": "Shopping",
+        "amount": -120,
+        "amountType": "debit",
+        "status": "En cours"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "frassatialfredo@unicredit.com",
+    "password": "xfqhkdf44125",
+    "token": "",
+    "fullname": "ALFREDO Frassati",
+    "accountblocked": false,
+    "theme": "light",
+    "dominantColor": "#e63946",
+    "currency": "€",
+    "currencyPosition": "left",
+    "accounts": [
+      {
+        "id": 1,
+        "type": "main",
+        "name": "Compte Principal",
+        "number": "IT60 X054 2811 1010 0000 0123 456",
+        "numberShort": "IT60 X054 2811...",
+        "balance": 24580.00,
+        "trend": "+€500,00",
+        "trendClass": "text-success",
+        "status": "Actif",
+        "statusClass": "bg-success",
+        "cardClass": "bg-unicredit-red text-white"
+      },
+      {
+        "id": 2,
+        "type": "savings",
+        "name": "Compte Épargne",
+        "number": "IT60 X054 2811 1010 0000 0123 457",
+        "numberShort": "IT60 X054 2811...",
+        "balance": 12450.00,
+        "interestRate": "2.5%",
+        "trend": "+€300,00",
+        "trendClass": "text-success",
+        "status": "Actif",
+        "statusClass": "bg-success",
+        "cardClass": "bg-success text-white"
+      },
+      {
+        "id": 3,
+        "type": "investments",
+        "name": "Investissements",
+        "number": "IT60 X054 2811 1010 0000 0123 458",
+        "numberShort": "IT60 X054 2811...",
+        "balance": 8000.00,
+        "trend": "+€120,00",
+        "trendClass": "text-success",
+        "status": "Actif",
+        "statusClass": "bg-success",
+        "cardClass": "bg-info text-white"
+      }
+    ],
+    "creditCards": [
+      {
+        "id": 1,
+        "name": "UniCredit Gold",
+        "number": "**** **** **** 1234",
+        "numberShort": "**** 1234",
+        "balance": 2000.00,
+        "limit": 5000.00,
+        "usagePercentage": 40,
+        "progressClass": "bg-warning",
+        "cardClass": "bg-warning text-white"
+      },
+      {
+        "id": 2,
+        "name": "UniCredit Platinum",
+        "number": "**** **** **** 5678",
+        "numberShort": "**** 5678",
+        "balance": 1000.00,
+        "limit": 3000.00,
+        "usagePercentage": 33,
+        "progressClass": "bg-info",
+        "cardClass": "bg-info text-white"
+      }
+    ],
+    "stats": {
+      "incomeThisMonth": 8500,
+      "expensesThisMonth": 2150,
+      "netSavings": 6300,
+      "savingsGoal": 10000
+    },
+    "transactions": [
+      {
+        "id": 1,
+        "date": "2024-12-15",
+        "description": "Salaire - Entreprise XYZ",
+        "category": "Revenus",
+        "amount": 3200,
+        "amountType": "credit",
+        "status": "Validé"
+      },
+      {
+        "id": 2,
+        "date": "2024-12-14",
+        "description": "Carrefour - Courses",
+        "category": "Alimentation",
+        "amount": -85.5,
+        "amountType": "debit",
+        "status": "Validé"
+      },
+      {
+        "id": 3,
+        "date": "2024-12-13",
+        "description": "Total - Carburant",
+        "category": "Transport",
+        "amount": -65.0,
+        "amountType": "debit",
+        "status": "Validé"
+      },
+      {
+        "id": 4,
+        "date": "2024-12-12",
+        "description": "EDF - Électricité",
+        "category": "Logement",
+        "amount": -120.0,
+        "amountType": "debit",
+        "status": "En cours"
+      },
+      {
+        "id": 5,
+        "date": "2024-12-11",
+        "description": "Netflix - Abonnement",
+        "category": "Loisirs",
+        "amount": -15.99,
+        "amountType": "debit",
+        "status": "Validé"
+      }
+    ]
+  }
+]
